@@ -43,7 +43,7 @@ Designed to be simple, minimal, and professional — with smooth hover effects a
 
 1. Clone the repository:
    `bash
-   git clone https://github.com/YourUsername/pricing-section.git
+   git clone https://github.com/SajjadR17/modern-pricing-page.git
 
 ---
 
