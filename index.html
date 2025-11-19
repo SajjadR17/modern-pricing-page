@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Modern Pricicng page</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,15 +20,19 @@
       </div>
       <div class="tagline">Frontend Developer</div>
     </nav>
+    <h1>Choose Your Plan</h1>
+    <div class="switchPlanTime">
+      <button class="toggle-btn active">Monthly</button>
+      <button class="toggle-btn">Yearly</button>
+    </div>
     <div class="subscription-plan">
-      <h1>Choose Your Plan</h1>
       <div class="plan-cards">
         <div class="basic">
-          <h3>Basic</h3>
-          <span
-            ><h3>$19</h3>
-            /mo</span
-          >
+          <h1>Basic</h1>
+          <div class="price">
+            <h3 class="basic-price">$19</h3>
+            <span class="mo-yr"> /mo</span>
+          </div>
           <div class="future">
             <div class="future1">
               <img src="assests/Checkmark.png" alt="" />
@@ -43,14 +47,14 @@
               <span>Future three</span>
             </div>
           </div>
-          <button>Select Plan</button>
+          <button class="Select-plan">Select Plan</button>
         </div>
         <div class="pro">
-          <h3>Pro</h3>
-          <span
-            ><h3>$49</h3>
-            /mo</span
-          >
+          <h1>Pro</h1>
+          <div class="price">
+            <h3 class="pro-price">$49</h3>
+            <span class="mo-yr"> /mo</span>
+          </div>
           <div class="future">
             <div class="future1">
               <img src="assests/Checkmark.png" alt="" />
@@ -65,14 +69,14 @@
               <span>Future three</span>
             </div>
           </div>
-          <button>Select Plan</button>
+          <button class="Select-plan">Select Plan</button>
         </div>
         <div class="premium">
-          <h3>Premium</h3>
-          <span
-            ><h3>$99</h3>
-            /mo</span
-          >
+          <h1>Premium</h1>
+          <div class="price">
+            <h3 class="premium-price">$99</h3>
+            <span class="mo-yr"> /mo</span>
+          </div>
           <div class="future">
             <div class="future1">
               <img src="assests/Checkmark.png" alt="" />
@@ -87,9 +91,10 @@
               <span>Future three</span>
             </div>
           </div>
-          <button>Select Plan</button>
+          <button class="Select-plan">Select Plan</button>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,7 +1,8 @@
 # 💸 Modern Pricing Section (CSS Grid)
 
-A clean and responsive Pricing Section built entirely with HTML & CSS using Grid Layout.  
+A clean and responsive Pricing Section built entirely with HTML , JS & CSS using Grid Layout.  
 Designed to be simple, minimal, and professional — with smooth hover effects and a mobile-friendly layout.
+You can switch on Monthly or Yearly Subscription.
 
 ---
 
@@ -20,6 +21,7 @@ Designed to be simple, minimal, and professional — with smooth hover effects a
 
 - HTML5 — Semantic and structured markup
 - CSS3 — Grid layout, transitions, hover effects
+- JS — DOM
 - Responsive Design — Media queries
 
 ---

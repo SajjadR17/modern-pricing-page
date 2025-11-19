@@ -116,6 +116,34 @@ body {
   font-size: 16px;
 }
 
+.switchPlanTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 50px;
+}
+
+.toggle-btn {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: all 0.4s ease;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.active {
+  border-color: rgb(0, 110, 255);
+  background-color: rgb(0, 110, 255);
+  color: #ffffff;
+}
+
 /* nav */
 
 .sajjad-nav {
@@ -169,7 +197,11 @@ body {
 
 /* subscription plan */
 
-.subscription-plan h1 {
+.subscription-plan {
+  margin: 60px 20px;
+}
+
+h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,6 +225,11 @@ body {
 
 .plan-cards span {
   color: #999;
+}
+
+.plan-cards h1 {
+  color: black;
+  display: inline-block;
 }
 
 .plan-cards h3 {
@@ -237,8 +274,8 @@ body {
 }
 
 .basic:hover {
-  box-shadow: 0px 4px 6px gray;
-  transform: scale(1.01);
+  box-shadow: 0px 3px 3px #999;
+  transform: scale(1.03);
   border-color: #888;
 }
 
@@ -250,7 +287,7 @@ body {
   align-items: center;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
-  width: 300px;
+  width: 280px;
   height: auto;
   margin: auto;
   margin-top: 30px;
@@ -261,8 +298,8 @@ body {
 }
 
 .pro:hover {
-  box-shadow: 0px 4px 6px gray;
-  transform: scale(1.01);
+  box-shadow: 0px 3px 3px #999;
+  transform: scale(1.03);
   border-color: #888;
 }
 
@@ -284,20 +321,23 @@ body {
 }
 
 .premium:hover {
-  box-shadow: 0px 2px 4px gray;
-  transform: scale(1.01);
+  box-shadow: 0px 3px 3px #999;
+  transform: scale(1.03);
   border-color: #888;
 }
 
 @media (max-width: 1024px) {
   .basic {
-    width: 90%;
+    width: 85%;
+    margin: 40px auto;
   }
   .pro {
-    width: 90%;
+    width: 85%;
+    margin: 40px auto;
   }
   .premium {
-    width: 90%;
+    width: 85%;
+    margin: 40px auto;
   }
 }
 
@@ -306,12 +346,12 @@ body {
     display: block;
   }
   .basic {
-    width: 70%;
+    width: 80%;
   }
   .pro {
-    width: 70%;
+    width: 80%;
   }
   .premium {
-    width: 70%;
+    width: 80%;
   }
 }
